@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style 2.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html"> <button>Home</button> </a>
+        <a href="../pages/howto.html"> <button>How To</button> </a>
+        <a href="../pages/minhavida.html"> <button>Minha Vida</button> </a>
+        <a href="contato.html"> <button>Contato</button> </a>
+     </nav>
+    
+</body>
+</html>
+<form action="cadastro.html" method="post">
+    <h3>Contato</h3>
+    <section>
+    Nome
+    <input type="text" id="nome" name="nome"
+    placeholder="Informe seu nome completo" required>
+    </section>
+
+    <section>
+    E-mail
+    <input type="email" id="email" name="email"
+    placeholder="Informe seu email">
+    </section>
+
+    <section>
+    Data de nascimento
+    <input type="date" id="nascimento" name="nascimento">
+    </section>
+
+    <section>
+        Telefone
+        <input type="tel" id="telefone" name="telefone"
+        pattern="[0-9]({2})-[0-9]{4}-[0-9]{4}">
+    </section>
+     Sexo
+    <section>
+        <input type="radio" id="feminino" name="Sexo" >Feminino
+        <input type="radio" id="masculino" name="Sexo">Masculino
+    </section>
+
+    <section>
+        CPF
+        <input type="number" id="cpf" name="cpf" required>
+    </section>
+
+    <section>
+        Escolha sua viagem
+        <select id="viagem" name="viagem">
+            <option value="nada">Selecione abaixo</option>
+            <option value="Bebs">Bebedouro - SP</option>
+            <option value="ma">Monte Azul Paulista - SP</option>
+    </section>
+    
+    <input type="submit" id="botao" name="botao" value="Gravar">
+    <input type="reset" id="botao2" name="botao2" value="Limpar">
+
+</form>
